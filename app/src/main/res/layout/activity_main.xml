@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/italian"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:text="@string/italian"
+        android:onClick="onClick"
+
+         />
+
+    <TextView
+        android:id="@+id/spanish"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:text="@string/spanish"
+        android:onClick="onClick"
+
+        />
+    <TextView
+        android:id="@+id/french"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:text="@string/french"
+        android:onClick="onClick"
+
+        />
+    <TextView
+        android:id="@+id/german"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:text="@string/german"
+        android:onClick="onClick"
+
+        />
+    <TextView
+        android:id="@+id/japanese"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_height"
+        android:text="@string/japanese"
+        android:onClick="onClick"
+
+        />
+
+    <Button
+        android:id="@+id/btnSwitchActivity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/switch_activity"
+        android:onClick="onClick"/>
+
+</LinearLayout>

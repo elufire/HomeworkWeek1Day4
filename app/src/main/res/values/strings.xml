@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HomeworkWeek1Day4</string>
+    <string name="italian">mom</string>
+    <string name="spanish">hello</string>
+    <string name="french">goodbye</string>
+    <string name="german">good morning</string>
+    <string name="japanese">love</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="switch_activity">Switch Activity</string>
+
+</resources>
